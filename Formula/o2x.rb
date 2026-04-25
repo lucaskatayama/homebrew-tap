@@ -31,6 +31,6 @@ class O2x < Formula
   end
 
   test do
-    system "#{bin}/o2x", "--version"
+    assert_match "OAuth2", shell_output("#{bin}/o2x --help")
   end
 end

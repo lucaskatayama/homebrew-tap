@@ -1,5 +1,5 @@
 class O2x < Formula
-  desc "Convert JSON to XML and XML to JSON"
+  desc "OAuth2 CLI for authentication with various OAuth2 flows"
   homepage "https://github.com/lucaskatayama/o2x"
   version "0.2.0"
   license "MIT"
